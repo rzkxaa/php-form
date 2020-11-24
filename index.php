@@ -6,8 +6,7 @@ if(isset($_GET["FirstName"])){//show feedback
   
   echo '<pre>';
   var_dump($_GET);
-  echo '</pre>';
-  
+  echo '</pre>'; 
   
 }else{//show form
   echo '
@@ -19,16 +18,12 @@ if(isset($_GET["FirstName"])){//show feedback
   <p><input type="radio" name="FavoriteColor" value="yellow" /> Yellow</p>
   <p><input type="radio" name="FavoriteColor" value="blue" /> Blue</p>
   
-  
-  
   <br />
   <input type="submit">
   
   </form>
   ';
 }
-
-
 
 ?>
 
